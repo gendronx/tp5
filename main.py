@@ -25,7 +25,7 @@ class MyGame(arcade.Window):
 def main():
 
     window = MyGame(640, 480, "Drawing Example")
-
+    arcade.set_background_color(arcade.color.LASER_LEMON)
     arcade.run()
 
 
